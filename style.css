@@ -1,0 +1,71 @@
+#conteiner {
+    margin: 0px 250px 0px 250px;
+    background-color: rgba(103, 0, 103, 0.71);
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+#allUsers {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0px 110px 0px 140px;
+}
+
+#allUsers div {
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+}
+
+#allUsers div p {
+    text-align: center;
+    margin: 0px;
+}
+
+#allUsers div p:hover {
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px 110px 0px 140px;
+}
+
+tr td:nth-child(2) {
+    width: 460px;
+}
+
+td {
+    font-size: xx-large;
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+}
+
+input {
+    display: none;
+    padding: 10px;
+    width: 900px;
+    border: 1px solid black;
+}
+
+#showPosts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0px 110px 0px 140px;
+ }
+
+#showPosts div {
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+}
